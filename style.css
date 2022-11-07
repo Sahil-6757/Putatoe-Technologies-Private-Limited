@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: aquamarine;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.current_location {
+    border: 2px solid white;
+    border-radius: 23px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.current_location p {
+    color: rebeccapurple;
+
+}
+
+.top img {
+    height: 7vh;
+}
+
+.bell {
+    color: white;
+}
+
+.count {
+    font-size: 22px;
+    width: 12px;
+    background-color: red;
+    overflow: visible;
+    margin-left: -1rem;
+    border-radius: 50%;
+}
