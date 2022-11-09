@@ -2,6 +2,7 @@ let voice = document.getElementById("voice");
 let serach = document.getElementById('serach');
 voice.addEventListener("click", (e) => {
 
+serach.value = '';
   let recognition = new webkitSpeechRecognition();
 
   recognition.lang = "en-GB";
