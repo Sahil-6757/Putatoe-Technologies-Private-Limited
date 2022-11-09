@@ -1,119 +1,121 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .location {
-    font-size: 2rem;
-    color: white;
-  }
-  
-  nav {
-    padding-left: 2px;
-    background-color: aquamarine;
-  }
-  
-  .top {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+.location {
+  font-size: 2rem;
+  color: white;
+}
+
+nav {
+  padding-left: 2px;
+  background-color: aquamarine;
+}
+
+.top {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.search_textbox {
+  padding: 5px 5px;
+  width: 71vw;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.current_location {
+  border: 2px solid white;
+  border-radius: 23px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.current_location p {
+  height: 9px;
+  color: rebeccapurple;
+}
+
+.top img {
+  height: 7vh;
+}
+
+.bell {
+  color: white;
+  font-size: 25px;
+}
+
+.cart {
+  font-size: 23px;
+  color: white;
+}
+
+.count {
+  font-size: 17px;
+  text-align: center;
+  width: 9px;
+  background-color: red;
+  overflow: visible;
+  margin-left: -10px;
+  border-radius: 50%;
+}
+
+.bottom {
+  align-items: unset;
+  text-align: center;
+}
+
+.microphone {
+  font-weight: 800;
+  font-size: 12px;
+  color: white;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.microphone {
+  font-weight: 700 !important;
+  font-size: 1.3rem;
+}
+
+.serach_textbox {
+  padding: 4px 5px;
+  width: 26vw;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
   .search_textbox {
-    padding: 5px 5px;
-    width: 71vw;
-    border-radius: 4px;
-    width: 100%;
+    width: 30%;
   }
-  
-  .current_location {
-    border: 2px solid white;
-    border-radius: 23px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    padding-left: 3px;
-    padding-right: 3px;
+  body {
+    background-color: rebeccapurple;
   }
-  
-  .current_location p {
-    height: 9px;
-    color: rebeccapurple;
-  }
-  
-  .top img {
-    height: 7vh;
-  }
-  
-  .bell {
-    color: white;
-    font-size: 25px;
-  }
-  
-  .cart {
-    font-size: 23px;
-    color: white;
-  }
-  
-  .count {
-    font-size: 17px;
-    text-align: center;
-    width: 9px;
-    background-color: red;
-    overflow: visible;
-    margin-left: -10px;
-    border-radius: 50%;
-  }
-  
-  .bottom {
-    align-items: unset;
-    text-align: center;
-  }
-  
-  .microphone {
-    font-weight: 800;
-    font-size: 12px;
-    color: white;
-  }
-  
-  .input-icons i {
-    position: absolute;
-  }
-  
-  .input-icons {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  
-  .icon {
-    padding: 10px;
-    min-width: 40px;
-  }
-  
-  .input-field {
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .microphone {
-    font-weight: 700 !important;
-    font-size: 1.3rem;
-  }
-  
-  .serach_textbox {padding: 4px 5px;
-    width: 26vw;
-    border-radius: 5px;
-    
-  }
-  
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .search_textbox {
-      width: 30%;
-    }
-    body{
-      background-color: rebeccapurple;
-    }
-  }
-  
-  
+}
+
+.carousel {
+  margin: 2rem 1rem;
+}
