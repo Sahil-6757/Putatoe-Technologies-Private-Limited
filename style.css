@@ -6,6 +6,8 @@
 .location {
   font-size: 2rem;
   color: white;
+
+  padding-right: 19px;
 }
 
 nav {
@@ -47,10 +49,12 @@ nav {
 .bell {
   color: white;
   font-size: 25px;
+  padding-left: 12px;
 }
 
 .cart {
   font-size: 23px;
+  padding-left: 12px;
   color: white;
 }
 
@@ -102,18 +106,9 @@ nav {
 
 .serach_textbox {
   padding: 4px 5px;
-  width: 26vw;
+  width: 65vw;
   border-radius: 5px;
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .search_textbox {
-    width: 30%;
-  }
-  body {
-    background-color: rebeccapurple;
-  }
+  margin: 2vh;
 }
 
 .carousel {
