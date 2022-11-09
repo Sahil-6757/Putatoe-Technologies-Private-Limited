@@ -1,7 +1,7 @@
 let voice = document.getElementById("voice");
 let serach = document.getElementById('serach');
 voice.addEventListener("click", (e) => {
-
+alert('Your voice recognition is started');
 serach.value = '';
   let recognition = new webkitSpeechRecognition();
 

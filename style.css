@@ -113,4 +113,10 @@ nav {
 
 .carousel {
   margin: 2rem 1rem;
+  background-color: aliceblue;
+}
+
+.iconHW{
+  width: 7rem;
+  height: 9rem;
 }
