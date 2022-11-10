@@ -185,3 +185,7 @@ nav {
   font-size: 8rem;
     margin-top: -65px;
 }
+
+.iconHW{
+  cursor: pointer;
+}
