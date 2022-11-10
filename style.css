@@ -12,7 +12,7 @@
 
 nav {
   padding-left: 2px;
-  background-color: aquamarine;
+  background-color: #2bcdcd;
 }
 
 .top {
@@ -119,4 +119,15 @@ nav {
 .iconHW{
   width: 7rem;
   height: 9rem;
+}
+
+.popular_service_products{
+  background-color: #b7ebeb;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+.service_products_heading{
+  text-align: center;
+  color: #116a6a;
 }
