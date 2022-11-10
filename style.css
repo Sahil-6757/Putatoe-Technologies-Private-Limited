@@ -125,9 +125,63 @@ nav {
   background-color: #b7ebeb;
   margin-left: 23px;
   margin-right: 23px;
+  margin-top: 7px;
 }
 
 .service_products_heading{
   text-align: center;
   color: #116a6a;
+}
+
+.Consultancy{
+  text-align: center;
+  text-decoration: underline;
+  color: darkgray;
+}
+
+.underline{
+  text-align: center;
+  width: 23rem;
+}
+
+.card{
+  margin-right: 30px;
+}
+
+.card_rows{
+  margin-left: 13rem!important;
+
+}
+
+.card-text{
+  margin-top: 7rem;
+}
+.All_Popular_Service_Provider_heading{
+  background-color: #b7ebeb;
+  margin-left: 23px;
+  margin-right: 23px;
+  margin-top: 7px;
+}
+
+.service_provider{
+  text-align: center;
+  color: #116a6a;
+}
+
+.s{background-color: rgb(90 90 147);
+  height: 23vh;
+  -webkit-user-modify: read-write-plaintext-only;
+
+}
+
+.service_provider_card{
+  margin-top: 2rem!important;
+  margin-left: 13rem;
+  background-color: aliceblue;
+  text-align: center;
+}
+.S_h2{
+  color: white;
+  font-size: 8rem;
+    margin-top: -65px;
 }
