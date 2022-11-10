@@ -6,7 +6,6 @@
 .location {
   font-size: 2rem;
   color: white;
-
   padding-right: 19px;
 }
 
@@ -116,76 +115,77 @@ nav {
   background-color: aliceblue;
 }
 
-.iconHW{
+.iconHW {
   width: 7rem;
   height: 9rem;
 }
 
-.popular_service_products{
+.popular_service_products {
   background-color: #b7ebeb;
   margin-left: 23px;
   margin-right: 23px;
   margin-top: 7px;
 }
 
-.service_products_heading{
+.service_products_heading {
   text-align: center;
   color: #116a6a;
 }
 
-.Consultancy{
+.Consultancy {
   text-align: center;
   text-decoration: underline;
   color: darkgray;
 }
 
-.underline{
+.underline {
   text-align: center;
   width: 23rem;
 }
 
-.card{
+.card {
   margin-right: 30px;
 }
 
-.card_rows{
-  margin-left: 13rem!important;
+.card_rows {
+  margin-left: 13rem !important;
 
 }
 
-.card-text{
+.card-text {
   margin-top: 7rem;
 }
-.All_Popular_Service_Provider_heading{
+
+.All_Popular_Service_Provider_heading {
   background-color: #b7ebeb;
   margin-left: 23px;
   margin-right: 23px;
   margin-top: 7px;
 }
 
-.service_provider{
+.service_provider {
   text-align: center;
   color: #116a6a;
 }
 
-.s{background-color: rgb(90 90 147);
+.s {
+  background-color: rgb(90 90 147);
   height: 23vh;
-  
-
 }
 
-.service_provider_card{
-  margin-top: 2rem!important;
+.service_provider_card {
+  margin-top: 2rem !important;
   margin-left: 13rem;
   background-color: aliceblue;
   text-align: center;
 }
-.S_h2{
+
+.S_h2 {
   color: white;
   font-size: 8rem;
-    margin-top: -65px;
+  margin-top: -65px;
 }
 
-.iconHW{
+.iconHW {
   cursor: pointer;
 }
