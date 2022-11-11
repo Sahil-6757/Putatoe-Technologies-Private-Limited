@@ -11,3 +11,17 @@ voice.addEventListener("click", (e) => {
   };
   recognition.start();
 });
+
+
+let nav= document.getElementById('nav');
+let carousel = document.getElementById('carousel')
+window.onscroll = function(){
+  if(window.pageYOffset >= carousel.offsetTop){
+    nav.classList.add('sticky')
+    console.log("sticky class added")
+  }
+  else{
+    nav.classList.remove('sticky')
+    console.log("stickey class removed")
+  }
+}

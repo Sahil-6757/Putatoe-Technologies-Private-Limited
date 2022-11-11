@@ -241,3 +241,7 @@ card {
   margin-top: -2rem;
 }
 
+.sticky{
+  top: 0;
+  position: sticky;
+}
