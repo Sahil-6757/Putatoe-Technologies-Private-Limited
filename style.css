@@ -11,7 +11,7 @@
 
 nav {
   padding-left: 2px;
-  background-color: #60e6e5;
+  background-color: #3f9d9c;
 }
 
 .top {
@@ -107,7 +107,7 @@ nav {
   width: 65vw;
   border-radius: 5px;
   margin: 2vh;
-  background: url(./images/search.jpg) white  no-repeat left;
+  background: url(./images/search.jpg) white no-repeat left;
 }
 
 .carousel {
@@ -151,15 +151,17 @@ card {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  margin-left: 22px!important;
+  margin-left: 22px !important;
 }
 
+.row {
+  gap: 8px !important;
+}
 
 .card_rows {
-  margin-left: 13rem !important;
-
+  margin-left: 6rem !important;
 }
 
 .card-text {
@@ -179,13 +181,14 @@ card {
 }
 
 .s {
-  background-color: rgb(90 90 147);
+  background-color: rgb(42 42 88);
   height: 23vh;
 }
 
 .service_provider_card {
   margin-top: 2rem !important;
-  margin-left: 13rem;
+  margin-left: 7rem;
+  height: -webkit-fill-available;
   background-color: aliceblue;
   text-align: center;
 }
@@ -197,4 +200,44 @@ card {
 
 .iconHW {
   cursor: pointer;
+}
+
+.lightpink{
+  background-color: #f875f8;
+  height: 23vh;
+}
+
+.lightblue{
+  background-color: #66c1df;
+  height: 23vh;
+}
+.green{background-color: #266626;
+  height: 23vh;
+}
+.lightgreen{
+  background-color: #5db35d;
+  height: 23vh;
+}
+
+.offer{
+  overflow: visible;
+  margin: auto;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 13.3rem;
+  margin-right: 3px;
+  background-color: green;
+  color: white;
+}
+
+.card-img-top{
+  overflow: visible;
+}
+
+.tagline{
+  position: absolute;
+    margin-left: 7rem;
+    font-weight: 700;
+    color: wheat;
+    margin-top: -2rem;
 }
