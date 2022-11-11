@@ -12,7 +12,7 @@
 
 nav {
   padding-left: 2px;
-  background-color: aquamarine;
+  background-color: #60e6e5;
 }
 
 .top {
@@ -39,7 +39,6 @@ nav {
 
 .current_location p {
   height: 9px;
-  color: rebeccapurple;
 }
 
 .top img {
@@ -105,10 +104,11 @@ nav {
 }
 
 .serach_textbox {
-  padding: 4px 5px;
+  padding: 3px 56px;
   width: 65vw;
   border-radius: 5px;
   margin: 2vh;
+  background: url(./images/search.jpg) white  no-repeat left;
 }
 
 .carousel {
