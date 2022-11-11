@@ -234,10 +234,10 @@ card {
   overflow: visible;
 }
 
-.tagline{
-  position: absolute;
-    margin-left: 7rem;
-    font-weight: 700;
-    color: wheat;
-    margin-top: -2rem;
+.tagline{position: absolute;
+  margin-left: 7rem;
+  font-weight: 700;
+  color: #6fcaff;
+  margin-top: -2rem;
 }
+
