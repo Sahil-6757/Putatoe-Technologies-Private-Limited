@@ -10,8 +10,27 @@
 }
 
 nav {
-  padding-left: 2px;
+  overflow: hidden;
   background-color: #3f9d9c;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: red; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .top {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .search_textbox {
+    padding: 5px 5px;
+    width: 71vw;
+    border-radius: 4px;
+    width: 100%;
+  }
 }
 
 .top {
@@ -242,6 +261,8 @@ card {
 }
 
 .sticky{
+  position: fixed !important;
   top: 0;
-  position: sticky;
+  width: 100%;
 }
+
