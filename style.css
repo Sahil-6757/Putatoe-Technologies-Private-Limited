@@ -38,6 +38,13 @@ nav {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   }
+  .search_textbox{
+    padding: 3px 56px;
+    width: 75vw;
+    border-radius: 5px;
+    margin: 2vh;
+    background: url(./images/search.jpg) white no-repeat left;
+  }
 }
 
 .top {
