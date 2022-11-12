@@ -17,7 +17,24 @@ nav {
 
 @media screen and (max-width: 768px) {
   nav {
-    background-color: red; /* The width is 100%, when the viewport is 800px or smaller */
+    background-color: #3f9d9c;
+  }
+
+  .card{
+    
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    display: flex;
+    flex-basis: min-content;
+}
   }
 
   .top {
@@ -33,20 +50,21 @@ nav {
     width: 100%;
   }
 
-  .icons{
-    
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
-  .search_textbox{
+
+  .search_textbox {
     padding: 3px 56px;
     width: 75vw;
     border-radius: 5px;
     margin: 2vh;
     background: url(./images/search.jpg) white no-repeat left;
   }
-}
+
+ 
 
 .top {
   justify-content: center;
@@ -111,9 +129,7 @@ nav {
   color: white;
 }
 
-.input-icons i {
-  position: absolute;
-}
+
 
 .input-icons {
   width: 100%;
@@ -236,24 +252,25 @@ card {
   cursor: pointer;
 }
 
-.lightpink{
+.lightpink {
   background-color: #f875f8;
   height: 23vh;
 }
 
-.lightblue{
+.lightblue {
   background-color: #66c1df;
   height: 23vh;
 }
-.green{background-color: #266626;
+.green {
+  background-color: #266626;
   height: 23vh;
 }
-.lightgreen{
+.lightgreen {
   background-color: #5db35d;
   height: 23vh;
 }
 
-.offer{
+.offer {
   overflow: visible;
   margin: auto;
   position: absolute;
@@ -264,20 +281,20 @@ card {
   color: white;
 }
 
-.card-img-top{
+.card-img-top {
   overflow: visible;
 }
 
-.tagline{position: absolute;
+.tagline {
+  position: absolute;
   margin-left: 7rem;
   font-weight: 700;
   color: #6fcaff;
   margin-top: -2rem;
 }
 
-.sticky{
+.sticky {
   position: fixed !important;
   top: 0;
   width: 100%;
 }
-
