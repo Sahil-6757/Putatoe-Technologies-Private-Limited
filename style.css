@@ -39,6 +39,7 @@
 .All_Popular_Service_Provider {
   margin-left: 2px;
 }
+
 .top {
   font-size: 18px;
   justify-content: center;
@@ -172,9 +173,7 @@ card {
   margin-left: 22px !important;
 }
 
-.row {
-  gap: 8px !important;
-}
+
 
 .card_rows {
   margin-left: 6rem !important;
@@ -226,10 +225,12 @@ card {
   background-color: #66c1df;
   height: 23vh;
 }
+
 .green {
   background-color: #266626;
   height: 23vh;
 }
+
 .lightgreen {
   background-color: #5db35d;
   height: 23vh;
@@ -319,12 +320,21 @@ nav {
   font-size: 2rem;
 }
 
+.row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  margin-left: 112rem;
+  max-width: 12% !important;
+}
+
 .manual-card {
-  height: 14rem;
+  height: 16rem;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
   background-color: #fff;
-  margin: 22rem 23rem;
+  margin: 2rem 2rem;
   width: 19rem;
 }
 
