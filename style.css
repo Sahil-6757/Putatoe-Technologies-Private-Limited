@@ -329,13 +329,17 @@ nav {
   max-width: 12% !important;
 }
 
+.align-card-center{
+  margin-left: 25rem;
+}
+
 .manual-card {
   height: 16rem;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
   background-color: #fff;
   margin: 2rem 2rem;
-  width: 19rem;
+
 }
 
 .manual-card-p {

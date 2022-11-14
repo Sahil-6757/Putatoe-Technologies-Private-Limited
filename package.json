@@ -1,0 +1,20 @@
+{
+  "name": "putatoe-technologies-private-limited",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahil-6757/Putatoe-Technologies-Private-Limited.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahil-6757/Putatoe-Technologies-Private-Limited/issues"
+  },
+  "homepage": "https://github.com/Sahil-6757/Putatoe-Technologies-Private-Limited#readme"
+}
