@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  
 }
-
-
 
 .location {
   font-size: 2rem;
@@ -14,17 +11,7 @@
   padding-right: 19px;
 }
 
-nav {
-  overflow: hidden;
-  width: 100%;
-  background-color: #3f9d9c;
-}
-
 @media screen and (max-width: 768px) {
-  nav {
-    background-color: red; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-
   .top {
     justify-content: center;
     display: flex;
@@ -38,39 +25,25 @@ nav {
     width: 100%;
   }
 
-  .icons{
-    
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  }
-  .search_textbox{
-    padding: 3px 56px;
-    width: 75vw;
-    border-radius: 5px;
-    margin: 2vh;
-    background: url(./images/search.jpg) white no-repeat left;
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
 }
 
-.popular_service_products_section{
+.popular_service_products_section {
   margin-left: 2px;
 }
 
-.All_Popular_Service_Provider{
+.All_Popular_Service_Provider {
   margin-left: 2px;
 }
 .top {
+  font-size: 18px;
   justify-content: center;
   display: flex;
   align-items: center;
-}
-
-.search_textbox {
-  padding: 5px 5px;
-  width: 71vw;
-  border-radius: 4px;
-  width: 100%;
 }
 
 .current_location {
@@ -84,13 +57,6 @@ nav {
 
 .current_location p {
   height: 9px;
-}
-
-.top{
-  
-  justify-content: center;
-  display: flex;
-  align-items: center;
 }
 
 .bell {
@@ -153,7 +119,8 @@ nav {
 
 .serach_textbox {
   padding: 3px 56px;
-  width: 65vw;
+  width: 26vw;
+  font-size: 22px;
   border-radius: 5px;
   margin: 2vh;
   background: url(./images/search.jpg) white no-repeat left;
@@ -231,7 +198,6 @@ card {
 
 .s {
   background-color: rgb(42 42 88);
-  height: 23vh;
 }
 
 .service_provider_card {
@@ -251,24 +217,25 @@ card {
   cursor: pointer;
 }
 
-.lightpink{
+.lightpink {
   background-color: #f875f8;
   height: 23vh;
 }
 
-.lightblue{
+.lightblue {
   background-color: #66c1df;
   height: 23vh;
 }
-.green{background-color: #266626;
+.green {
+  background-color: #266626;
   height: 23vh;
 }
-.lightgreen{
+.lightgreen {
   background-color: #5db35d;
   height: 23vh;
 }
 
-.offer{
+.offer {
   overflow: visible;
   margin: auto;
   position: absolute;
@@ -279,20 +246,89 @@ card {
   color: white;
 }
 
-.card-img-top{
+.card-img-top {
   overflow: visible;
 }
 
-.tagline{position: absolute;
+.tagline {
+  position: absolute;
   margin-left: 7rem;
   font-weight: 700;
   color: #6fcaff;
   margin-top: -2rem;
 }
 
-.sticky{
+.sticky {
   position: fixed !important;
   top: 0;
   width: 100%;
 }
 
+nav {
+  top: 0;
+  width: 100%;
+  position: sticky;
+  background-color: #3f9d9c;
+}
+
+.footer {
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+}
+
+.footer-container {
+  align-items: baseline;
+  display: flex;
+  background-color: #e3f3f3;
+  justify-content: space-around;
+}
+
+.logo {
+  height: 7vh;
+  background-color: #116a6a;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.footer-icon-color {
+  margin-left: 21px;
+  font-size: 30px;
+  color: #116a6a;
+}
+
+.home {
+  margin-left: -1px;
+  font-size: 2rem;
+}
+
+.profile {
+  margin-left: -12px;
+  font-size: 2rem;
+}
+
+.follow-list {
+  margin-left: -27px;
+  font-size: 2rem;
+}
+
+.chat {
+  margin-left: -9px;
+  font-size: 2rem;
+}
+
+.manual-card {
+  height: 14rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  background-color: #fff;
+  margin: 22rem 23rem;
+  width: 19rem;
+}
+
+.manual-card-p {
+  text-align: center;
+  margin-top: 196px;
+}
