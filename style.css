@@ -344,5 +344,61 @@ nav {
 
 .manual-card-p {
   text-align: center;
-  margin-top: 196px;
+  margin-top: 1rem;
+}
+
+.grid{display: flex;
+  margin-left: -13rem;
+}
+
+.grid-sai-kitchen{
+  width: 16rem;
+}
+
+.innerbox{    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 10rem;
+    background-color: rgb(42 42 88);
+    height: 10rem;
+}
+
+.innerletter{
+  font-size: 5rem;
+  color: wheat;
+    margin: auto;
+}
+
+.grid-Home-maintainance{
+  display: flex;
+}
+
+.innerbox-Home-maintainance{
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  width: 10rem;
+  background-color: rgb(42 42 88);
+  height: 10rem;
+}
+
+.innerbox-Home-maintainance-images{
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  width: 10rem;
+  background-color: rgb(42 42 88);
+  height: 10rem;
+}
+
+.innerbox-Home-maintainances{
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  width: 10rem;
+  background: url(./images/Corpotate\ raasta.jpg );
+  height: 10rem;
 }
