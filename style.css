@@ -129,7 +129,7 @@
 
 .carousel {
   margin: 2rem 1rem;
-  background-color: aliceblue;
+  overflow: hidden;
 }
 
 .iconHW {
@@ -401,3 +401,16 @@ nav {
   background: url(./images/Corpotate\ raasta.jpg);
   height: 10rem;
 }
+
+.crousel-images{
+  overflow: hidden;
+}
+
+.image-slider{
+  background-color: cadetblue;
+}
+
+.crousel-image{
+  margin-left: 21rem;
+}
+

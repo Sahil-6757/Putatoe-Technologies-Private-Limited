@@ -25,3 +25,6 @@ window.onscroll = function(){
     console.log("stickey class removed")
   }
 }
+
+// Jquery for crousel
+
