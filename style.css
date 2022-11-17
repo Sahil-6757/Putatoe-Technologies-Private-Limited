@@ -173,8 +173,6 @@ card {
   margin-left: 22px !important;
 }
 
-
-
 .card_rows {
   margin-left: 6rem !important;
 }
@@ -329,7 +327,7 @@ nav {
   max-width: 12% !important;
 }
 
-.align-card-center{
+.align-card-center {
   margin-left: 25rem;
 }
 
@@ -339,7 +337,6 @@ nav {
   border-radius: 0.25rem;
   background-color: #fff;
   margin: 2rem 2rem;
-
 }
 
 .manual-card-p {
@@ -347,43 +344,35 @@ nav {
   margin-top: 1rem;
 }
 
-.grid{display: flex;
+.grid {
+  display: flex;
   margin-left: -13rem;
 }
 
-.grid-sai-kitchen{
+.grid-sai-kitchen {
   width: 16rem;
 }
 
-.innerbox{    display: flex;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    width: 10rem;
-    background-color: rgb(42 42 88);
-    height: 10rem;
+.innerbox {
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 10rem;
+  background-color: rgb(42 42 88);
+  height: 10rem;
 }
 
-.innerletter{
+.innerletter {
   font-size: 5rem;
   color: wheat;
-    margin: auto;
+  margin: auto;
 }
 
-.grid-Home-maintainance{
+.grid-Home-maintainance {
   display: flex;
 }
 
-.innerbox-Home-maintainance{
-  display: flex;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 1rem;
-  width: 10rem;
-  background-color: rgb(42 42 88);
-  height: 10rem;
-}
-
-.innerbox-Home-maintainance-images{
+.innerbox-Home-maintainance {
   display: flex;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -393,12 +382,22 @@ nav {
   height: 10rem;
 }
 
-.innerbox-Home-maintainances{
+.innerbox-Home-maintainance-images {
   display: flex;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 1rem;
   width: 10rem;
-  background: url(./images/Corpotate\ raasta.jpg );
+  background-color: rgb(42 42 88);
+  height: 10rem;
+}
+
+.innerbox-Home-maintainances {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  width: 10rem;
+  background: url(./images/Corpotate\ raasta.jpg);
   height: 10rem;
 }
