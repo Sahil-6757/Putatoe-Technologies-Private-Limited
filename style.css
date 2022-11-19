@@ -19,10 +19,12 @@
   }
 
   .search_textbox {
-    padding: 5px 5px;
-    width: 71vw;
-    border-radius: 4px;
-    width: 100%;
+    padding: 3px 56px;
+    width: 82vw;
+    font-size: 22px;
+    border-radius: 5px;
+    margin: 2vh;
+    background: url(./images/search.jpg) white no-repeat left;
   }
 
   .icons {
