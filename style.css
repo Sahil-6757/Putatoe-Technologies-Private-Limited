@@ -13,11 +13,11 @@
 
 @media screen and (max-width: 600px) {
 
-  nav {
-    top: 0px;
-    width: 50%;
-    position: fixed;
-    background-color: rgb(63, 157, 156);
+ .nav-style {
+  top: 0;
+  width: 54%;
+  position: fixed;
+  background-color: #3f9d9c;
 }
 
   .top {
@@ -26,14 +26,14 @@
     align-items: center;
   }
 
-  .search_textbox {
-    padding: 3px 56px;
-    width: 82vw;
-    font-size: 22px;
-    border-radius: 5px;
-    margin: 2vh;
-    background: url(./images/search.jpg) white no-repeat left;
-  }
+  .serach_textbox {
+    padding: 3px 56px !important;
+    width: 55vw !important;
+    font-size: 22px !important;
+    border-radius: 5px !important;
+    margin: 2vh !important;
+    background: url(./images/search.jpg) white no-repeat left !important;
+}
   .iconHW {
     height: 30px;
     cursor: pointer;
