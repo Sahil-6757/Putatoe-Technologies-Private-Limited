@@ -12,6 +12,14 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  nav {
+    top: 0px;
+    width: 50%;
+    position: fixed;
+    background-color: rgb(63, 157, 156);
+}
+
   .top {
     justify-content: center;
     display: flex;
