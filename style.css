@@ -11,7 +11,7 @@
   padding-right: 19px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .top {
     justify-content: center;
     display: flex;
@@ -26,7 +26,11 @@
     margin: 2vh;
     background: url(./images/search.jpg) white no-repeat left;
   }
-
+  .iconHW {
+    height: 50px;
+    cursor: pointer;
+    width: 60px;
+}
   .icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -132,6 +136,8 @@
 .carousel {
   margin: 2rem 1rem;
   overflow: hidden;
+  margin-top: 53px;
+    position: relative;
 }
 
 .iconHW {
@@ -259,16 +265,12 @@ card {
   margin-top: -2rem;
 }
 
-.sticky {
-  position: fixed !important;
-  top: 0;
-  width: 100%;
-}
+
 
 nav {
   top: 0;
   width: 100%;
-  position: sticky;
+  position: fixed;
   background-color: #3f9d9c;
 }
 
@@ -404,15 +406,14 @@ nav {
   height: 10rem;
 }
 
-.crousel-images{
+.crousel-images {
   overflow: hidden;
 }
 
-.image-slider{
+.image-slider {
   background-color: cadetblue;
 }
 
-.crousel-image{
+.crousel-image {
   margin-left: 21rem;
 }
-
