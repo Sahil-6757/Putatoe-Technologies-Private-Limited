@@ -355,6 +355,9 @@ nav {
   text-align: center;
   margin-top: 1rem;
 }
+.manual-card-paragraph{
+margin-top: 12rem !important;
+}
 
 .grid {
   display: flex;
