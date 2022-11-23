@@ -339,6 +339,14 @@ nav {
   max-width: 12% !important;
 }
 
+.row-service-provider{
+  
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  max-width: 12% !important;
+}
 .align-card-center {
   margin-left: 25rem;
 }
