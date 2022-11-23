@@ -34,11 +34,11 @@
     margin: 2vh !important;
     background: url(./images/search.jpg) white no-repeat left !important;
 }
-  .iconHW {
+  /* .iconHW {
     height: 30px;
     cursor: pointer;
     width: 30px;
-}
+} */
   .icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
