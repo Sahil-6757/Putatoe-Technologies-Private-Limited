@@ -12,13 +12,12 @@
 }
 
 @media screen and (max-width: 600px) {
-
- .nav-style {
-  top: 0;
-  width: 54%;
-  position: fixed;
-  background-color: #3f9d9c;
-}
+  .nav-style {
+    top: 0;
+    width: 54%;
+    position: fixed;
+    background-color: #3f9d9c;
+  }
 
   .top {
     justify-content: center;
@@ -33,12 +32,12 @@
     border-radius: 5px !important;
     margin: 2vh !important;
     background: url(./images/search.jpg) white no-repeat left !important;
-}
+  }
   .iconHW {
     height: 30px;
     cursor: pointer;
     width: 30px;
-}
+  }
   .icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -145,7 +144,7 @@
   margin: 2rem 1rem;
   overflow: hidden;
   margin-top: 53px;
-    position: relative;
+  position: relative;
 }
 
 .iconHW {
@@ -273,8 +272,6 @@ card {
   margin-top: -2rem;
 }
 
-
-
 nav {
   top: 0;
   width: 100%;
@@ -339,8 +336,7 @@ nav {
   max-width: 12% !important;
 }
 
-.row-service-provider{
-  
+.row-service-provider {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: nowrap !important;
@@ -363,8 +359,8 @@ nav {
   text-align: center;
   margin-top: 1rem;
 }
-.manual-card-paragraph{
-margin-top: 12rem !important;
+.manual-card-paragraph {
+  margin-top: 12rem !important;
 }
 
 .grid {
