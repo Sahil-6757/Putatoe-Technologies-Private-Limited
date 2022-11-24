@@ -25,31 +25,30 @@
     align-items: center;
   }
 
-.serach_textbox {
+  .serach_textbox {
     padding: 3px 56px !important;
     width: 55vw !important;
     font-size: 22px !important;
     border-radius: 5px !important;
     margin: 2vh !important;
     background: url(./images/search.jpg) white no-repeat left !important;
-}
+  }
   .iconHW {
     height: 30px;
     cursor: pointer;
     width: 30px;
   }
 }
-  /* .iconHW {
+/* .iconHW {
     height: 30px;
     cursor: pointer;
     width: 30px;
 } */
-  .icons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-
+.icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
 
 .popular_service_products_section {
   margin-left: 2px;
@@ -361,6 +360,57 @@ nav {
   margin: 2rem 2rem;
 }
 
+.discount {
+  font-size: 17px;
+  font-weight: 700;
+  left: 29.2rem;
+  color: aliceblue;
+  background-color: #5db35d;
+  position: absolute;
+  overflow: hidden;
+}
+
+.discount2 {
+  font-size: 17px;
+  font-weight: 700;left: 47.7rem;
+  color: aliceblue;
+  background-color: #5db35d;
+  position: absolute;
+  overflow: hidden;
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  margin-top: -3rem;
+  left: 21rem;
+  color: white;
+}
+.title2 {
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  margin-top: -3rem;
+  left: 43rem;
+  color: white;
+}
+
+.service-provider-section-main {
+  height: 10rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  background-color: #fff;
+  margin: 2rem 2rem;
+}
+
+.service-provider-section-main2 {
+  height: 10rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  background-color: #fff;
+  margin: 2rem 2rem;
+}
+
 .manual-card-p {
   text-align: center;
   margin-top: 1rem;
@@ -397,6 +447,10 @@ nav {
   display: flex;
 }
 
+.grid-Home-maintainance2 {
+  display: flex;
+}
+
 .innerbox-Home-maintainance {
   display: flex;
   margin-left: 1rem;
@@ -404,6 +458,22 @@ nav {
   margin-top: 1rem;
   width: 10rem;
   background-color: rgb(42 42 88);
+  height: 10rem;
+}
+
+.service-provider-section-card {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.service-provider-section-card-img {
+  height: 10rem;
+}
+.service-provider-section-card-img2 {
   height: 10rem;
 }
 
