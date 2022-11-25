@@ -45,6 +45,7 @@
     width: 30px;
 } */
 .icons {
+  margin-left: 10px !important; 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
