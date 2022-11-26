@@ -14,9 +14,18 @@
 @media screen and (max-width: 600px) {
   .nav-style {
     top: 0;
-    width: 54%;
+    width: 45%;
     position: fixed;
     background-color: #3f9d9c;
+  }
+  .current_location {
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 23px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
   }
 
   .top {
@@ -26,17 +35,51 @@
   }
 
   .serach_textbox {
-    padding: 3px 56px !important;
-    width: 55vw !important;
-    font-size: 22px !important;
+    padding: 5px 56px !important;
+    width: 65vw !important;
+    font-size: 12px !important;
     border-radius: 5px !important;
     margin: 2vh !important;
     background: url(./images/search.jpg) white no-repeat left !important;
   }
+  
   .iconHW {
-    height: 30px;
+    height: 75px !important;
     cursor: pointer;
-    width: 30px;
+    width: 65px !important;
+  }
+
+  .icons {
+    margin-left: 10px !important;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .grid {
+    display: flex;
+    
+    margin-left: -36rem !important;
+  }
+  .manual-card-consultancy{
+    height: 11rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    background-color: rgb(204, 44, 44);
+    margin-left: 43px;
+    width: 7rem;
+  
+  }
+  .manual-card-paragraph{
+    margin-top: -43rem !important;
+  }
+
+  .manual-card {
+    height: 11rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    background-color: #fff;
+    margin: 2rem 2rem;
+    width: 7rem;
   }
 }
 /* .iconHW {
@@ -45,7 +88,6 @@
     width: 30px;
 } */
 .icons {
-  margin-left: 10px !important; 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -73,6 +115,18 @@
   padding-top: 3px;
   padding-left: 3px;
   padding-right: 3px;
+}
+.manual-card-consultancy{
+  height: 11rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  background-color: rgb(204, 44, 44);
+  margin-left: 43px;
+  width: 7rem;
+
+}
+.manual-card-paragraph{
+  margin-top: -43rem !important;
 }
 
 .current_location p {
@@ -373,7 +427,8 @@ nav {
 
 .discount2 {
   font-size: 17px;
-  font-weight: 700;left: 47.7rem;
+  font-weight: 700;
+  left: 47.7rem;
   color: aliceblue;
   background-color: #5db35d;
   position: absolute;
